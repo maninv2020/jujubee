@@ -1,0 +1,17 @@
+.avatar-50 {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+#cancel-comment-reply-link {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.comment-reply-target + .comment-respond {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    border-left-width: 3px !important;
+}
+
+.bypostauthor{/* This is for WP */}

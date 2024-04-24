@@ -1,0 +1,10 @@
+@media (min-width: 1500px) {
+    .ocdi__gl-item {
+        width: calc(25% - 30px);
+        flex: 0 0 calc(25% - 30px);
+    }
+}
+
+.ocdi__theme-about {
+    display: none;
+} 

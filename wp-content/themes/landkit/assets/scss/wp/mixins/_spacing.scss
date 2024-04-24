@@ -1,0 +1,14 @@
+//
+// spacing.scss
+//
+
+@mixin spacing-class( $prop, $place, $size, $breakpoint:false ) {
+    @if $breakpoint {
+        @include media-breakpoint-up($breakpoint) {
+            #{$prop}-#{$place}: map-get( $spacers, $size ) !important;
+        }
+    } @else {
+        #{$prop}-#{$place}: map-get( $spacers, $size ) !important;
+    }
+
+}

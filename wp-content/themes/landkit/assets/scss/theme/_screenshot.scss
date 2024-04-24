@@ -1,0 +1,9 @@
+//
+// screenshot.scss
+// Theme component
+//
+
+.screenshot, .elementor img.screenshot {
+  border-radius: $screenshot-border-radius;
+  box-shadow: $screenshot-box-shadow;
+}

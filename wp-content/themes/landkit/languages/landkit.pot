@@ -1,0 +1,2052 @@
+# <!=Copyright (C) 2024 MadrasThemes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Landkit 1.0.16\n"
+"Report-Msgid-Bugs-To: https://madrasthemes.freshdesk.com/\n"
+"POT-Creation-Date: 2024-02-05 09:33:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: POT <support@madrasthemes.freshdesk.com>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: inc/customizer/class-landkit-customizer.php:1673
+msgid "404"
+msgstr ""
+
+#: 404.php:33 inc/classes/class-landkit-breadcrumb.php:120
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:65 inc/customizer/class-landkit-customizer.php:1753
+msgid "Uh Oh."
+msgstr ""
+
+#: 404.php:67 inc/customizer/class-landkit-customizer.php:1777
+msgid "We ran into an issue, but don’t worry, we’ll take care of it for sure."
+msgstr ""
+
+#: 404.php:71 inc/customizer/class-landkit-customizer.php:1801
+msgid "Back to safety"
+msgstr ""
+
+#: comments.php:46
+#. translators: comment reply text
+msgid "Reply"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:79
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:81
+#. translators: related to comment form; phrase follows by red mark
+msgid "Required fields are marked"
+msgstr ""
+
+#: comments.php:89
+#. translators: label for textarea in comment form
+msgid "Comment"
+msgstr ""
+
+#: inc/admin/class-landkit-plugin-install.php:103
+#: inc/classes/class-tgm-plugin-activation.php:330
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/admin/class-landkit-plugin-install.php:172
+msgid "Use this plugin to upload SVG files."
+msgstr ""
+
+#: inc/class-landkit.php:182 inc/class-landkit.php:183
+#: templates/admin/icons.php:11
+msgid "Duatone Icons"
+msgstr ""
+
+#: inc/class-landkit.php:213
+#. translators: 1: column number
+msgid "Footer Column %1$d"
+msgstr ""
+
+#: inc/class-landkit.php:216
+#. translators: 1: column number
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr ""
+
+#: inc/class-landkit.php:219
+#. translators: 1: row number, 2: column number
+msgid "Footer Row %1$d - Column %2$d"
+msgstr ""
+
+#: inc/class-landkit.php:222
+#. translators: 1: column number, 2: row number
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr ""
+
+#: inc/classes/class-landkit-breadcrumb.php:238
+#. translators: %s: product tag
+msgid "Products tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/classes/class-landkit-breadcrumb.php:290
+#. translators: %s: tag name
+msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/classes/class-landkit-breadcrumb.php:333
+#. translators: %s: author name
+msgid "Author: %s"
+msgstr ""
+
+#: inc/classes/class-landkit-breadcrumb.php:373
+#. translators: %s: search term
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/classes/class-landkit-breadcrumb.php:383
+#. translators: %d: page number
+msgid "Page %d"
+msgstr ""
+
+#: inc/classes/class-landkit-post-taxonomies.php:40
+#: inc/classes/class-landkit-post-taxonomies.php:61
+msgid "Cover Image"
+msgstr ""
+
+#: inc/classes/class-landkit-post-taxonomies.php:44
+#: inc/classes/class-landkit-post-taxonomies.php:72
+msgid "Add Image"
+msgstr ""
+
+#: inc/classes/class-landkit-post-taxonomies.php:45
+#: inc/classes/class-landkit-post-taxonomies.php:73
+msgid "Remove Image"
+msgstr ""
+
+#: inc/classes/class-landkit-walker-comment.php:50
+msgid "Author"
+msgstr ""
+
+#: inc/classes/class-landkit-walker-comment.php:100
+#: job_manager/job-dashboard.php:54 job_manager/job-dashboard.php:87
+msgid "Edit"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:329
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:332
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:334
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:335
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:372
+#. translators: %1$s: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:377
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:382
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:387
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:388
+#: inc/classes/class-tgm-plugin-activation.php:908
+#: inc/classes/class-tgm-plugin-activation.php:2647
+#: inc/classes/class-tgm-plugin-activation.php:3663
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:389
+#: inc/classes/class-tgm-plugin-activation.php:3271
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:390
+#: inc/classes/class-tgm-plugin-activation.php:3066
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:392
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:394
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:396
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:397
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:398
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:399
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:602
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:603
+msgid "Update Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1017
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1017
+#: inc/classes/class-tgm-plugin-activation.php:1027
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2098
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2387
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2390
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2406
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2409
+msgid "External Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2412
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2429
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2433
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2435
+msgid "Active"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2441
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2444
+msgid "Requires Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2447
+msgid "Update recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2506
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2510
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2514
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2604
+msgid "Installed version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2612
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2624
+msgid "Available version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2647
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2661
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2662
+msgid "Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2663
+msgid "Type"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2667
+msgid "Version"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2668
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2717
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2722
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2728
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2798
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2831
+msgid "Install"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2837
+msgid "Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2840
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2871
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2873
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2914
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2916
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3022
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3048
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3270
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3583
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3586
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3588
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3594
+#. translators: 1: plugin name.
+msgid "%s installed and activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3596
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3599
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3601
+#. translators: 1: plugin name.
+msgid "%s installed successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3603
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-wp-bootstrap-navwalker.php:417
+msgid "Please assign a menu"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:109
+msgid "General"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:110
+msgid "This section contains general settings"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:137
+msgid "Before Site Content"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:138
+msgid ""
+"Choose a static content that will be displayed before the site. This is "
+"useful if you'd like to load modals"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:156
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:157
+msgid "This section contains settings related to header."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:183
+#: inc/customizer/class-landkit-customizer.php:896
+#: inc/customizer/class-landkit-customizer.php:1314
+#: inc/wedocs/class-landkit-wedocs-customizer.php:122
+#: inc/wpjm/class-landkit-wpjm-customizer.php:176
+msgid "Skin"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:184
+#: inc/customizer/class-landkit-customizer.php:897
+#: inc/customizer/class-landkit-customizer.php:1315
+#: inc/wedocs/class-landkit-wedocs-customizer.php:123
+#: inc/wpjm/class-landkit-wpjm-customizer.php:177
+msgid "This setting allows you to choose your header skin."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:186
+#: inc/customizer/class-landkit-customizer.php:649
+#: inc/customizer/class-landkit-customizer.php:899
+#: inc/customizer/class-landkit-customizer.php:1166
+#: inc/customizer/class-landkit-customizer.php:1317
+#: inc/customizer/class-landkit-customizer.php:1585
+#: inc/landkit-functions.php:1284
+#: inc/wedocs/class-landkit-wedocs-customizer.php:125
+#: inc/wedocs/class-landkit-wedocs-customizer.php:392
+#: inc/wpjm/class-landkit-wpjm-customizer.php:179
+#: inc/wpjm/class-landkit-wpjm-customizer.php:446
+msgid "Light"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:187
+#: inc/customizer/class-landkit-customizer.php:647
+#: inc/customizer/class-landkit-customizer.php:900
+#: inc/customizer/class-landkit-customizer.php:1164
+#: inc/customizer/class-landkit-customizer.php:1318
+#: inc/customizer/class-landkit-customizer.php:1583
+#: inc/customizer/class-landkit-customizer.php:1871
+#: inc/landkit-functions.php:1289
+#: inc/wedocs/class-landkit-wedocs-customizer.php:126
+#: inc/wedocs/class-landkit-wedocs-customizer.php:390
+#: inc/wpjm/class-landkit-wpjm-customizer.php:180
+#: inc/wpjm/class-landkit-wpjm-customizer.php:444
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:211
+#: inc/customizer/class-landkit-customizer.php:928
+#: inc/customizer/class-landkit-customizer.php:1346
+#: inc/wedocs/class-landkit-wedocs-customizer.php:154
+#: inc/wpjm/class-landkit-wpjm-customizer.php:208
+msgid "Enable Border Bottom"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:212
+msgid "This setting allows you to show or hide border bottom."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:214
+#: inc/customizer/class-landkit-customizer.php:251
+#: inc/customizer/class-landkit-customizer.php:288
+#: inc/customizer/class-landkit-customizer.php:318
+#: inc/customizer/class-landkit-customizer.php:383
+#: inc/customizer/class-landkit-customizer.php:616
+#: inc/customizer/class-landkit-customizer.php:680
+#: inc/customizer/class-landkit-customizer.php:870
+#: inc/customizer/class-landkit-customizer.php:931
+#: inc/customizer/class-landkit-customizer.php:963
+#: inc/customizer/class-landkit-customizer.php:1000
+#: inc/customizer/class-landkit-customizer.php:1033
+#: inc/customizer/class-landkit-customizer.php:1101
+#: inc/customizer/class-landkit-customizer.php:1134
+#: inc/customizer/class-landkit-customizer.php:1197
+#: inc/customizer/class-landkit-customizer.php:1288
+#: inc/customizer/class-landkit-customizer.php:1349
+#: inc/customizer/class-landkit-customizer.php:1381
+#: inc/customizer/class-landkit-customizer.php:1419
+#: inc/customizer/class-landkit-customizer.php:1452
+#: inc/customizer/class-landkit-customizer.php:1520
+#: inc/customizer/class-landkit-customizer.php:1553
+#: inc/customizer/class-landkit-customizer.php:1616
+#: inc/customizer/class-landkit-customizer.php:2031
+#: inc/wedocs/class-landkit-wedocs-customizer.php:96
+#: inc/wedocs/class-landkit-wedocs-customizer.php:157
+#: inc/wedocs/class-landkit-wedocs-customizer.php:189
+#: inc/wedocs/class-landkit-wedocs-customizer.php:226
+#: inc/wedocs/class-landkit-wedocs-customizer.php:259
+#: inc/wedocs/class-landkit-wedocs-customizer.php:327
+#: inc/wedocs/class-landkit-wedocs-customizer.php:360
+#: inc/wedocs/class-landkit-wedocs-customizer.php:423
+#: inc/wedocs/class-landkit-wedocs-customizer.php:480
+#: inc/wpjm/class-landkit-wpjm-customizer.php:93
+#: inc/wpjm/class-landkit-wpjm-customizer.php:150
+#: inc/wpjm/class-landkit-wpjm-customizer.php:211
+#: inc/wpjm/class-landkit-wpjm-customizer.php:243
+#: inc/wpjm/class-landkit-wpjm-customizer.php:280
+#: inc/wpjm/class-landkit-wpjm-customizer.php:313
+#: inc/wpjm/class-landkit-wpjm-customizer.php:381
+#: inc/wpjm/class-landkit-wpjm-customizer.php:414
+#: inc/wpjm/class-landkit-wpjm-customizer.php:477
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:215
+#: inc/customizer/class-landkit-customizer.php:252
+#: inc/customizer/class-landkit-customizer.php:289
+#: inc/customizer/class-landkit-customizer.php:319
+#: inc/customizer/class-landkit-customizer.php:384
+#: inc/customizer/class-landkit-customizer.php:617
+#: inc/customizer/class-landkit-customizer.php:681
+#: inc/customizer/class-landkit-customizer.php:871
+#: inc/customizer/class-landkit-customizer.php:932
+#: inc/customizer/class-landkit-customizer.php:964
+#: inc/customizer/class-landkit-customizer.php:1001
+#: inc/customizer/class-landkit-customizer.php:1034
+#: inc/customizer/class-landkit-customizer.php:1102
+#: inc/customizer/class-landkit-customizer.php:1135
+#: inc/customizer/class-landkit-customizer.php:1198
+#: inc/customizer/class-landkit-customizer.php:1289
+#: inc/customizer/class-landkit-customizer.php:1350
+#: inc/customizer/class-landkit-customizer.php:1382
+#: inc/customizer/class-landkit-customizer.php:1420
+#: inc/customizer/class-landkit-customizer.php:1453
+#: inc/customizer/class-landkit-customizer.php:1521
+#: inc/customizer/class-landkit-customizer.php:1554
+#: inc/customizer/class-landkit-customizer.php:1617
+#: inc/customizer/class-landkit-customizer.php:2032
+#: inc/wedocs/class-landkit-wedocs-customizer.php:97
+#: inc/wedocs/class-landkit-wedocs-customizer.php:158
+#: inc/wedocs/class-landkit-wedocs-customizer.php:190
+#: inc/wedocs/class-landkit-wedocs-customizer.php:227
+#: inc/wedocs/class-landkit-wedocs-customizer.php:260
+#: inc/wedocs/class-landkit-wedocs-customizer.php:328
+#: inc/wedocs/class-landkit-wedocs-customizer.php:361
+#: inc/wedocs/class-landkit-wedocs-customizer.php:424
+#: inc/wedocs/class-landkit-wedocs-customizer.php:481
+#: inc/wpjm/class-landkit-wpjm-customizer.php:94
+#: inc/wpjm/class-landkit-wpjm-customizer.php:151
+#: inc/wpjm/class-landkit-wpjm-customizer.php:212
+#: inc/wpjm/class-landkit-wpjm-customizer.php:244
+#: inc/wpjm/class-landkit-wpjm-customizer.php:281
+#: inc/wpjm/class-landkit-wpjm-customizer.php:314
+#: inc/wpjm/class-landkit-wpjm-customizer.php:382
+#: inc/wpjm/class-landkit-wpjm-customizer.php:415
+#: inc/wpjm/class-landkit-wpjm-customizer.php:478
+msgid "No"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:248
+#: inc/customizer/class-landkit-customizer.php:960
+#: inc/customizer/class-landkit-customizer.php:1378
+#: inc/wedocs/class-landkit-wedocs-customizer.php:186
+#: inc/wpjm/class-landkit-wpjm-customizer.php:240
+msgid "Enable Navbar Togglable"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:249
+#: inc/customizer/class-landkit-customizer.php:961
+#: inc/customizer/class-landkit-customizer.php:1379
+#: inc/wedocs/class-landkit-wedocs-customizer.php:187
+#: inc/wpjm/class-landkit-wpjm-customizer.php:241
+msgid "This setting allows you to enable or disable navbar toggle option"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:285
+#: inc/customizer/class-landkit-customizer.php:997
+#: inc/customizer/class-landkit-customizer.php:1416
+#: inc/wedocs/class-landkit-wedocs-customizer.php:223
+#: inc/wpjm/class-landkit-wpjm-customizer.php:277
+msgid "Enable Fixed Top"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:286
+#: inc/customizer/class-landkit-customizer.php:998
+#: inc/customizer/class-landkit-customizer.php:1417
+#: inc/wedocs/class-landkit-wedocs-customizer.php:224
+#: inc/wpjm/class-landkit-wpjm-customizer.php:278
+msgid "This setting allows you to enable or disable fixed top option"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:315
+#: inc/customizer/class-landkit-customizer.php:1030
+#: inc/customizer/class-landkit-customizer.php:1449
+#: inc/wedocs/class-landkit-wedocs-customizer.php:256
+#: inc/wpjm/class-landkit-wpjm-customizer.php:310
+msgid "Make header full-width?"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:316
+#: inc/customizer/class-landkit-customizer.php:1031
+#: inc/customizer/class-landkit-customizer.php:1450
+#: inc/wedocs/class-landkit-wedocs-customizer.php:257
+#: inc/wpjm/class-landkit-wpjm-customizer.php:311
+msgid "This setting allows you to control header width. Default is boxed."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:344
+#: inc/customizer/class-landkit-customizer.php:1062
+#: inc/customizer/class-landkit-customizer.php:1481
+#: inc/wedocs/class-landkit-wedocs-customizer.php:288
+#: inc/wpjm/class-landkit-wpjm-customizer.php:342
+msgid "Container"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:345
+#: inc/customizer/class-landkit-customizer.php:1063
+#: inc/customizer/class-landkit-customizer.php:1482
+#: inc/wedocs/class-landkit-wedocs-customizer.php:289
+#: inc/wpjm/class-landkit-wpjm-customizer.php:343
+msgid "This setting allows you to choose your container layout"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:347
+#: inc/customizer/class-landkit-customizer.php:471
+#: inc/customizer/class-landkit-customizer.php:534
+#: inc/customizer/class-landkit-customizer.php:1065
+#: inc/customizer/class-landkit-customizer.php:1484
+#: inc/wedocs/class-landkit-wedocs-customizer.php:291
+#: inc/wpforms/integration.php:419
+#: inc/wpjm/class-landkit-wpjm-customizer.php:345
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:348
+#: inc/customizer/class-landkit-customizer.php:1066
+#: inc/customizer/class-landkit-customizer.php:1485
+#: inc/wedocs/class-landkit-wedocs-customizer.php:292
+#: inc/wpjm/class-landkit-wpjm-customizer.php:346
+msgid "Container Small"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:349
+#: inc/customizer/class-landkit-customizer.php:1067
+#: inc/customizer/class-landkit-customizer.php:1486
+#: inc/wedocs/class-landkit-wedocs-customizer.php:293
+#: inc/wpjm/class-landkit-wpjm-customizer.php:347
+msgid "Container medium "
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:350
+#: inc/customizer/class-landkit-customizer.php:1068
+#: inc/customizer/class-landkit-customizer.php:1487
+#: inc/wedocs/class-landkit-wedocs-customizer.php:294
+#: inc/wpjm/class-landkit-wpjm-customizer.php:348
+msgid "Container Large "
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:351
+#: inc/customizer/class-landkit-customizer.php:1069
+#: inc/customizer/class-landkit-customizer.php:1488
+#: inc/wedocs/class-landkit-wedocs-customizer.php:295
+#: inc/wpjm/class-landkit-wpjm-customizer.php:349
+msgid "Container Extra Large"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:380
+msgid "Enable Buy Now Button"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:381
+#: inc/customizer/class-landkit-customizer.php:1099
+#: inc/customizer/class-landkit-customizer.php:1518
+#: inc/wedocs/class-landkit-wedocs-customizer.php:325
+#: inc/wpjm/class-landkit-wpjm-customizer.php:379
+msgid "This setting allows you to show or hide Buy Now button"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:410
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:411
+msgid "This setting allows you to change the button link"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:428
+#: inc/template-functions/navbar.php:190
+msgid "Buy now"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:439
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:440
+#: inc/customizer/class-landkit-customizer.php:1813
+msgid "This setting allows you to change the button text"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:468
+msgid "Button Size"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:469
+msgid "This setting allows you to choose your button size"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:472
+msgid "Extra Small"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:473
+msgid "Small"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:474
+msgid "Large "
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:503
+msgid "Button CSS Class"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:504
+msgid "This setting allows you to add  button css"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:531
+msgid "Button Primary Color"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:532
+msgid "This setting allows you to choose your button color"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:535
+msgid "Custom"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:562
+msgid "Button Background"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:583
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:584
+msgid "This section contains settings related to footer."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:613
+msgid "Enable Footer"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:614
+msgid "This setting allows you to show or hide footer"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:642
+#: inc/customizer/class-landkit-customizer.php:1159
+#: inc/customizer/class-landkit-customizer.php:1578
+#: inc/wedocs/class-landkit-wedocs-customizer.php:385
+#: inc/wpjm/class-landkit-wpjm-customizer.php:439
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:643
+#: inc/customizer/class-landkit-customizer.php:1160
+#: inc/customizer/class-landkit-customizer.php:1579
+#: inc/wedocs/class-landkit-wedocs-customizer.php:386
+#: inc/wpjm/class-landkit-wpjm-customizer.php:440
+msgid "This setting allows you to choose your footer background."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:645
+#: inc/customizer/class-landkit-customizer.php:1162
+#: inc/customizer/class-landkit-customizer.php:1581
+#: inc/landkit-functions.php:1319
+#: inc/wedocs/class-landkit-wedocs-customizer.php:388
+#: inc/wpjm/class-landkit-wpjm-customizer.php:442
+msgid "Gray 200"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:646
+#: inc/customizer/class-landkit-customizer.php:1163
+#: inc/customizer/class-landkit-customizer.php:1582
+#: inc/customizer/class-landkit-customizer.php:1874
+#: inc/landkit-functions.php:1294
+#: inc/wedocs/class-landkit-wedocs-customizer.php:389
+#: inc/wpjm/class-landkit-wpjm-customizer.php:443
+msgid "White"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:648
+#: inc/customizer/class-landkit-customizer.php:1165
+#: inc/customizer/class-landkit-customizer.php:1584
+#: inc/customizer/class-landkit-customizer.php:1873
+#: inc/landkit-functions.php:1299
+#: inc/wedocs/class-landkit-wedocs-customizer.php:391
+#: inc/wpjm/class-landkit-wpjm-customizer.php:445
+msgid "Black"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:677
+#: inc/customizer/class-landkit-customizer.php:1194
+#: inc/customizer/class-landkit-customizer.php:1613
+#: inc/wedocs/class-landkit-wedocs-customizer.php:420
+#: inc/wpjm/class-landkit-wpjm-customizer.php:474
+msgid "Enable Border Top"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:678
+#: inc/customizer/class-landkit-customizer.php:1195
+#: inc/customizer/class-landkit-customizer.php:1614
+#: inc/wedocs/class-landkit-wedocs-customizer.php:421
+#: inc/wpjm/class-landkit-wpjm-customizer.php:475
+msgid "This setting allows you to show or hide border top in footer"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:710
+#: inc/template-functions/blog.php:18
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:711
+msgid ""
+"This section contains settings related to posts listing archives and single "
+"post."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:739
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:740
+msgid "This setting allows you to set blog title"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:764
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Blog Subtitle"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:765
+msgid "This setting allows you to set blog subtitle"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:791
+#. translators: label field for setting in Customizer
+msgid "Blog Cover Image"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:793
+#. translators: description field for "Payment Methods" setting in Customizer
+msgid ""
+"This setting allows you to upload an image. This image is optimized for "
+"retina displays, so the original image size should be twice as big as the "
+"final image that appears on the website."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:813 searchform.php:32
+msgid "Search our blog..."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:824
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Blog Search Placeholder"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:825
+msgid "This setting allows you to set blog search placeholder text"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:847
+msgid "Posts Footer Before Content"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:848
+msgid ""
+"Choose a static block that will be displayed before the footer in "
+"Blog/Posts archive pages."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:867
+msgid "Enable Custom Header for Single Post"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:868
+msgid "This setting allows you to show or hide custom header for Single Post"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:929
+#: inc/customizer/class-landkit-customizer.php:1347
+#: inc/wedocs/class-landkit-wedocs-customizer.php:155
+#: inc/wpjm/class-landkit-wpjm-customizer.php:209
+msgid "This setting allows you to show or hide border bottom"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1098
+#: inc/customizer/class-landkit-customizer.php:1517
+#: inc/wedocs/class-landkit-wedocs-customizer.php:324
+#: inc/wpjm/class-landkit-wpjm-customizer.php:378
+msgid "Enable Button"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1131
+msgid "Enable Custom Footer for Single Post"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1132
+msgid "This setting allows you to show or hide custom footer for Single Post"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1231
+msgid "Single Post Footer Before Content"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1232
+msgid ""
+"Choose a static block that will be displayed before the footer in single "
+"blog posts."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1256
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1257
+msgid "This section contains settings related to single portfolio."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1285
+#: inc/wedocs/class-landkit-wedocs-customizer.php:93
+msgid "Enable Custom Header"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1286
+msgid "This setting allows you to show or hide custom header for Single Portfolio"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1550
+#: inc/wedocs/class-landkit-wedocs-customizer.php:357
+msgid "Enable Custom Footer"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1551
+msgid "This setting allows you to show or hide custom footer for Single Portfolio"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1650
+msgid "Single Portfolio Footer Before Content"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1651
+msgid ""
+"Choose a static content that will be displayed before the footer in Single "
+"Portfolio page."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1700
+msgid "Error Page Style"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1701
+msgid "Select the style for Error page"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1703
+msgid "Error - Basic"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1704
+msgid "Error - Side Cover"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1705
+msgid "Error - Illustration"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1729
+msgid "Upload an image"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1730
+msgid ""
+"If you have a cool picture that you want to display on the 404 page you can "
+"upload it here."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1763
+msgid "Error Page Title"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1787
+msgid "Error Page Description"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1812
+msgid "Error Page Button Text"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1838
+msgid "Error Page Button Link"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1839
+msgid "This setting allows you to change the default homepage link"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1863
+msgid "Section Border Top Color"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1865
+#: inc/landkit-functions.php:1249
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1866
+#: inc/landkit-functions.php:1254
+msgid "Secondary"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1867
+#: inc/landkit-functions.php:1264
+msgid "Success"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1868
+#: inc/landkit-functions.php:1279
+msgid "Danger"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1869
+#: inc/landkit-functions.php:1274
+msgid "Warning"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1870
+#: inc/landkit-functions.php:1269
+msgid "Info"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:1872
+#: inc/landkit-functions.php:1259
+msgid "Primary Desat"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:2025
+msgid "Enable Custom Color?"
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:2026
+msgid "This settings allow you to apply your custom color option."
+msgstr ""
+
+#: inc/customizer/class-landkit-customizer.php:2052
+msgid "Primary color"
+msgstr ""
+
+#: inc/customizer/landkit-customizer-functions.php:21
+msgid "— Select —"
+msgstr ""
+
+#: inc/landkit-functions.php:380
+msgid "&laquo; Prev"
+msgstr ""
+
+#: inc/landkit-functions.php:381
+msgid "Next &raquo;"
+msgstr ""
+
+#: inc/landkit-functions.php:393
+msgid "Page navigation"
+msgstr ""
+
+#: inc/landkit-functions.php:792
+#. translators: Time difference between two dates, in seconds. %s: Number of
+#. seconds.
+msgid "%s second ago"
+msgid_plural "%s seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/landkit-functions.php:799
+#. translators: Time difference between two dates, in minutes (min=minute). %s:
+#. Number of minutes.
+msgid "%s min ago"
+msgid_plural "%s mins ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/landkit-functions.php:806
+#. translators: Time difference between two dates, in hours. %s: Number of
+#. hours.
+msgid "%s hour"
+msgid_plural "%s hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/landkit-functions.php:813
+#. translators: Time difference between two dates, in days. %s: Number of days.
+msgid "yesterday"
+msgid_plural "%s days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/landkit-functions.php:820
+#. translators: Time difference between two dates, in weeks. %s: Number of
+#. weeks.
+msgid "last week"
+msgid_plural "%s weeks ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/landkit-functions.php:827
+#. translators: Time difference between two dates, in months. %s: Number of
+#. months.
+msgid "last month"
+msgid_plural "%s months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/landkit-functions.php:834
+#. translators: Time difference between two dates, in years. %s: Number of
+#. years.
+msgid "last year"
+msgid_plural "%s years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/landkit-functions.php:944
+msgid "Invalid username or email address"
+msgstr ""
+
+#: inc/landkit-functions.php:954
+msgid "Please enter a password"
+msgstr ""
+
+#: inc/landkit-functions.php:961
+msgid "Incorrect password"
+msgstr ""
+
+#: inc/landkit-functions.php:1037
+msgid "Username already taken"
+msgstr ""
+
+#: inc/landkit-functions.php:1041
+msgid "Invalid username"
+msgstr ""
+
+#: inc/landkit-functions.php:1045
+msgid "Please enter a username"
+msgstr ""
+
+#: inc/landkit-functions.php:1049
+msgid "Invalid email"
+msgstr ""
+
+#: inc/landkit-functions.php:1053
+msgid "Email already registered"
+msgstr ""
+
+#: inc/landkit-functions.php:1066
+msgid "Password you entered is mismatched"
+msgstr ""
+
+#: inc/landkit-functions.php:1099
+msgid ""
+"Account created successfully. Please check your email to create your "
+"account password"
+msgstr ""
+
+#: inc/landkit-functions.php:1157
+msgid "Enter a username or email address"
+msgstr ""
+
+#: inc/landkit-functions.php:1172
+msgid "There is no account with that username or email address."
+msgstr ""
+
+#: inc/landkit-functions.php:1176
+msgid "Invalid username or email address."
+msgstr ""
+
+#: inc/landkit-functions.php:1185
+msgid "Passord has been sent to your email"
+msgstr ""
+
+#: inc/landkit-functions.php:1207
+msgid "Share:"
+msgstr ""
+
+#: inc/landkit-functions.php:1225
+#. translators: %s - Name of the share service
+msgid "Share this on %s"
+msgstr ""
+
+#: inc/landkit-functions.php:1304
+msgid "Text"
+msgstr ""
+
+#: inc/landkit-functions.php:1309
+msgid "Text Muted"
+msgstr ""
+
+#: inc/landkit-functions.php:1314
+msgid "Gray 100"
+msgstr ""
+
+#: inc/landkit-functions.php:1324
+msgid "Gray 300"
+msgstr ""
+
+#: inc/landkit-functions.php:1329
+msgid "Gray 400"
+msgstr ""
+
+#: inc/landkit-functions.php:1334
+msgid "Gray 500"
+msgstr ""
+
+#: inc/landkit-functions.php:1339
+msgid "Gray 600"
+msgstr ""
+
+#: inc/landkit-functions.php:1344
+msgid "Gray 700"
+msgstr ""
+
+#: inc/landkit-functions.php:1349
+msgid "Gray 800"
+msgstr ""
+
+#: inc/landkit-functions.php:1354
+msgid "Gray 900"
+msgstr ""
+
+#: inc/landkit-functions.php:1359
+msgid "Accent"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:231
+#. translators: %1$s - The demo name. %2$s - Minutes.
+msgid "This demo will import %1$s. It may take %2$s"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:232
+msgid ""
+"Menus, Widgets and Settings will not be imported. Content imported already "
+"will not be imported."
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:233
+msgid ""
+"Alternatively, you can import this template directly into your page via "
+"Edit with Elementor."
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:243
+msgid "1 page & 12 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:243 inc/ocdi/class-landkit-ocdi.php:253
+#: inc/ocdi/class-landkit-ocdi.php:262 inc/ocdi/class-landkit-ocdi.php:271
+#: inc/ocdi/class-landkit-ocdi.php:280 inc/ocdi/class-landkit-ocdi.php:289
+#: inc/ocdi/class-landkit-ocdi.php:299 inc/ocdi/class-landkit-ocdi.php:308
+#: inc/ocdi/class-landkit-ocdi.php:318 inc/ocdi/class-landkit-ocdi.php:328
+#: inc/ocdi/class-landkit-ocdi.php:337 inc/ocdi/class-landkit-ocdi.php:348
+#: inc/ocdi/class-landkit-ocdi.php:357 inc/ocdi/class-landkit-ocdi.php:366
+#: inc/ocdi/class-landkit-ocdi.php:375 inc/ocdi/class-landkit-ocdi.php:384
+#: inc/ocdi/class-landkit-ocdi.php:424
+msgid "upto a minute"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:253
+msgid "1 page & 20 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:262
+msgid "1 page & 19 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:271 inc/ocdi/class-landkit-ocdi.php:328
+msgid "1 page & 14 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:280
+msgid "1 page & 5 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:289
+msgid "1 page & 17 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:299
+msgid "1 page & 6 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:308
+msgid "1 page, 3 blog posts & 10 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:318
+msgid "1 page, 12 job listings & 15 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:337
+msgid "1 page & 10 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:348
+msgid "1 page, 21 job listings & 6 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:357
+msgid "3 pages ( About, Pricing &amp; Terms ) & 21 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:366
+msgid "2 pages & 3 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:375
+msgid "16 pages, 1 Static Content & 8 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:384
+msgid "66 articles, 1 page, 1 static content & 1 image"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:393
+msgid "25 blog posts, 2 pages, & 17 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:393 inc/ocdi/class-landkit-ocdi.php:402
+msgid "2-3 minutes"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:402
+msgid "27 portfolio projects, 3 pages, & 42 images"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:412
+msgid "It imports the entire demo. It may take upto 5 minutes"
+msgstr ""
+
+#: inc/ocdi/class-landkit-ocdi.php:424
+msgid "3 Megamenus, 2 Menus & 5 images"
+msgstr ""
+
+#: inc/template-functions/blog.php:103
+msgid "Showing the single result"
+msgstr ""
+
+#: inc/template-functions/blog.php:106
+#. translators: %d: total results
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-functions/blog.php:150
+msgid "Tags:"
+msgstr ""
+
+#: inc/template-functions/blog.php:235
+msgid "Featured"
+msgstr ""
+
+#: inc/template-functions/blog.php:438
+#. translators: label for link to the previous comments page
+msgid "Older comments"
+msgstr ""
+
+#: inc/template-functions/blog.php:442
+#. translators: label for link to the next comments page
+msgid "Newer comments"
+msgstr ""
+
+#: inc/template-functions/blog.php:450
+#. translators: navigation through comments
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-functions/portfolio.php:132
+#: inc/template-functions/portfolio.php:215
+msgid "Our Work."
+msgstr ""
+
+#: inc/template-functions/portfolio.php:136
+#: inc/template-functions/portfolio.php:219
+msgid ""
+"We design & build products, tools, apps, and sites for companies trying to "
+"do great things for our planet."
+msgstr ""
+
+#: inc/template-functions/portfolio.php:179
+msgid "All"
+msgstr ""
+
+#: inc/template-functions/single-post.php:136
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-functions/single-post.php:177
+#. translators: %$s - theme name
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-functions/single-post.php:188
+#. translators: %$s - theme name
+msgid "Updated on %s"
+msgstr ""
+
+#: inc/template-functions/single-post.php:323
+#. translators: comment author name
+msgid "Your name"
+msgstr ""
+
+#: inc/template-functions/single-post.php:335
+#. translators: comment author e-mail
+msgid "Your email"
+msgstr ""
+
+#: inc/template-functions/single-post.php:348
+msgid "Save my name and email in this browser for the next time I comment."
+msgstr ""
+
+#: inc/template-functions/single-post.php:367
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: inc/template-functions/single-post.php:369
+msgid "Password:"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:45
+msgid "Helpcenter"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:46
+msgid "This section contains settings related to single article"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:94
+msgid "This setting allows you to show or hide custom header for Single Article"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:358
+msgid "This setting allows you to show or hide custom footer for Single Article"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:457
+msgid "Footer Before Content"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:458
+msgid ""
+"Choose a static content that will be displayed before the footer in single "
+"article page."
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:477
+msgid "Enable Related Articles"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:478
+msgid "This setting allows you to show or hide related articles"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:506
+msgid "Related Articles Title"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:507
+msgid "This setting allows you to set related article title"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:533
+msgid "Related Articles Description"
+msgstr ""
+
+#: inc/wedocs/class-landkit-wedocs-customizer.php:534
+msgid "This setting allows you to set related article description"
+msgstr ""
+
+#: inc/wedocs/landkit-wedocs-template-functions.php:142
+#. translators: %s: Name of current post.
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/wedocs/landkit-wedocs-template-functions.php:168
+#. translators: %s - time
+msgid "Updated %s"
+msgstr ""
+
+#: inc/wedocs/landkit-wedocs-template-functions.php:270
+#. translators: %s - number of topics
+msgid "%s Answer"
+msgid_plural "%s Answers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/wpforms/integration.php:415
+msgid "Label Style"
+msgstr ""
+
+#: inc/wpforms/integration.php:420
+msgid "Floating Label"
+msgstr ""
+
+#: inc/wpforms/integration.php:433
+msgid "Enable Form Row"
+msgstr ""
+
+#: inc/wpforms/integration.php:447
+msgid "Button Alignment"
+msgstr ""
+
+#: inc/wpforms/integration.php:451
+msgid "Left"
+msgstr ""
+
+#: inc/wpforms/integration.php:452
+msgid "Center"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:42
+msgid "Jobs"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:90
+msgid "Do you want to use a custom application form for the jobs?"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:91
+msgid "This setting allows you to show or hide application form."
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:119
+msgid "Application Form"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:120
+msgid "Paste your application form HTML or shortcode here"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:147
+msgid "Enable Custom Header for Single Job"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:148
+msgid "This setting allows you to show or hide custom header for Single Job"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:411
+msgid "Enable Custom Footer for Single Job"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:412
+msgid "This setting allows you to show or hide custom footer for Single Job"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:510
+msgid "Single Job Footer Before Content"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm-customizer.php:511
+msgid ""
+"Choose a static block that will be displayed before the footer in single "
+"job."
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm.php:97
+msgid "Single Job Listing Sidebar"
+msgstr ""
+
+#: inc/wpjm/class-landkit-wpjm.php:99
+msgid ""
+"Widgets in this area will be shown under your single job listing, before "
+"comments."
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-functions.php:29
+msgid "Reset"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-functions.php:33
+msgid "RSS"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:27
+msgid "All listings"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:111
+msgid "Refer a friend"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:124
+msgid "Apply"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:268
+#: job_manager/job-submit.php:68
+msgid "Company Details"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:281
+msgid "Name"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:285
+msgid "Tagline"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:290
+msgid "Website"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:295
+msgid "Twitter"
+msgstr ""
+
+#: inc/wpjm/landkit-wpjm-template-functions.php:347
+msgid "Search Results"
+msgstr ""
+
+#: job_manager/account-signin.php:19
+msgid "Your account"
+msgstr ""
+
+#: job_manager/account-signin.php:24
+#. translators: Placeholder %s is the username.
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr ""
+
+#: job_manager/account-signin.php:27
+msgid "Sign out"
+msgstr ""
+
+#: job_manager/account-signin.php:39
+msgid "Have an account?"
+msgstr ""
+
+#: job_manager/account-signin.php:41
+msgid "Sign in"
+msgstr ""
+
+#: job_manager/account-signin.php:46
+#. translators: Placeholder %s is the optionally text.
+msgid ""
+"If you don't have an account you can %screate one below by entering your "
+"email address/username."
+msgstr ""
+
+#: job_manager/account-signin.php:46
+msgid "optionally"
+msgstr ""
+
+#: job_manager/account-signin.php:48
+msgid "Your account details will be confirmed via email."
+msgstr ""
+
+#: job_manager/account-signin.php:53
+msgid "You must sign in to create a new listing."
+msgstr ""
+
+#: job_manager/account-signin.php:64 job_manager/job-submit.php:42
+#: job_manager/job-submit.php:74
+msgid "(optional)"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:44
+msgid "This position has been filled"
+msgstr ""
+
+#: job_manager/content-single-job_listing-meta.php:46
+msgid "Applications have closed"
+msgstr ""
+
+#: job_manager/content-single-job_listing.php:20
+msgid "This listing has expired."
+msgstr ""
+
+#: job_manager/form-fields/file-field.php:99
+#. translators: 1: file size
+msgid "Maximum file size: %s."
+msgstr ""
+
+#: job_manager/form-fields/multiselect-field.php:24
+msgid "No results match"
+msgstr ""
+
+#: job_manager/form-fields/multiselect-field.php:24
+msgid "Select Some Options"
+msgstr ""
+
+#: job_manager/form-fields/uploaded-file-html.php:27
+#: job_manager/form-fields/uploaded-file-html.php:29
+msgid "remove"
+msgstr ""
+
+#: job_manager/job-dashboard.php:17
+msgid "Your listings are shown in the table below."
+msgstr ""
+
+#: job_manager/job-dashboard.php:32
+msgid "You do not have any active listings."
+msgstr ""
+
+#: job_manager/job-dashboard.php:45
+msgid "Featured Job"
+msgstr ""
+
+#: job_manager/job-dashboard.php:60
+msgid "Mark not filled"
+msgstr ""
+
+#: job_manager/job-dashboard.php:65
+msgid "Mark filled"
+msgstr ""
+
+#: job_manager/job-dashboard.php:71
+msgid "Duplicate"
+msgstr ""
+
+#: job_manager/job-dashboard.php:78
+msgid "Relist"
+msgstr ""
+
+#: job_manager/job-dashboard.php:95
+msgid "Continue Submission"
+msgstr ""
+
+#: job_manager/job-dashboard.php:102
+msgid "Delete"
+msgstr ""
+
+#: job_manager/job-filters.php:44 job_manager/job-filters.php:45
+msgid "Keywords"
+msgstr ""
+
+#: job_manager/job-filters.php:51 job_manager/job-filters.php:52
+#: job_manager/job-listings-start.php:39
+msgid "Location"
+msgstr ""
+
+#: job_manager/job-filters.php:63 job_manager/job-listings-start.php:35
+msgid "Category"
+msgstr ""
+
+#: job_manager/job-filters.php:83
+msgid "Any category"
+msgstr ""
+
+#: job_manager/job-filters.php:112
+msgid "Search Jobs"
+msgstr ""
+
+#: job_manager/job-filters.php:127
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript "
+"must be enabled in order to view listings."
+msgstr ""
+
+#: job_manager/job-listings-start.php:31
+msgid "Job"
+msgstr ""
+
+#: job_manager/job-preview.php:29
+msgid "Preview"
+msgstr ""
+
+#: job_manager/job-preview.php:44
+msgid "Edit listing"
+msgstr ""
+
+#: job_manager/job-preview.php:46
+msgid "Submit Listing"
+msgstr ""
+
+#: job_manager/job-submit.php:23
+#. translators: 1: number of jobs.
+msgid "You are editing an existing job. %s"
+msgstr ""
+
+#: job_manager/job-submit.php:23
+msgid "Create A New Job"
+msgstr ""
+
+#: job_manager/job-submit.php:105
+msgid "Save Draft"
+msgstr ""
+
+#: searchform.php:39
+msgid "Search"
+msgstr ""
+
+#: templates/contents/content-none.php:32
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/contents/content-none.php:41
+#. translators: %1$s - Link to new post page
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/contents/content-none.php:47
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/contents/content-none.php:51
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/contents/content-none.php:58
+msgid "Back to home"
+msgstr ""
+
+#: wedocs/content-feedback.php:8
+#. translators: %d: number of person
+msgid "%d person found this useful"
+msgid_plural "%d persons found this useful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wedocs/content-feedback.php:8 wedocs/content-feedback.php:10
+msgid "No votes yet"
+msgstr ""
+
+#: wedocs/content-feedback.php:10
+#. translators: %d: number of person
+msgid "%d person found this not useful"
+msgid_plural "%d persons found this not useful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wedocs/content-feedback.php:29
+msgid "Did this help solve your issue?"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Landkit"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://landkit.madrasthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Build a beautiful, modern WordPress website with Landkit. Develop anything."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MadrasThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/madrasthemes/"
+msgstr ""
+
+#: comments.php:32
+#. translators: 1: number of comments, 2: post title
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments "
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-landkit.php:98
+msgctxt "menu location"
+msgid "Navbar Nav"
+msgstr ""
+
+#: inc/class-landkit.php:99
+msgctxt "menu location"
+msgid "Social Media"
+msgstr ""
+
+#: inc/classes/class-landkit-walker-comment.php:65
+msgctxt "front-end"
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/classes/class-landkit-walker-comment.php:67
+msgctxt "front-end"
+msgid ""
+"Your comment is awaiting moderation. This is a preview, your comment will "
+"be visible after it has been approved."
+msgstr ""
+
+#: inc/template-functions/single-post.php:242
+#. translators: previous post in post navigation
+msgctxt "front-end"
+msgid "Previous post"
+msgstr ""
+
+#: inc/template-functions/single-post.php:260
+#. translators: next post in post navigation
+msgctxt "front-end"
+msgid "Next post"
+msgstr ""
+
+#: inc/wedocs/landkit-wedocs-template-functions.php:424
+#: templates/wedocs/content-docs.php:36 wedocs/shortcode.php:42
+#. translators: %d - number of entries
+#. translators: %d: entry count
+#. translators: %d: entry count
+msgctxt "front-end"
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1216
+#: inc/classes/class-tgm-plugin-activation.php:3062
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2456
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2502
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2596
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/template-functions/blog.php:111
+#. translators: 1: first result 2: last result 3: total results
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-functions/global.php:24
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""

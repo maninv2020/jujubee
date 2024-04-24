@@ -1,0 +1,32 @@
+.post__excerpt > *:last-child,
+.taxonomy-description > *:last-child {
+    margin-bottom: 0;
+}
+
+.post__excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.post__title {
+    -webkit-line-clamp: 2;
+}
+
+.has-post-thumbnail .post__excerpt {
+    -webkit-line-clamp: 3;
+}
+
+.has-post-thumbnail.col-lg-6 .post__excerpt,
+.has-post-thumbnail.sticky .post__excerpt,
+.has-post-thumbnail .card-row .post__excerpt {
+    -webkit-line-clamp: 4;
+}
+
+.sticky .post__excerpt {
+    -webkit-line-clamp: 2;
+}
+
+.page-link-transparent {
+    background-color: transparent;
+}

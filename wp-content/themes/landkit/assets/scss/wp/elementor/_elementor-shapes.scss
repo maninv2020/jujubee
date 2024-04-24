@@ -1,0 +1,196 @@
+//
+// shapes.scss
+// Theme component
+//
+
+.lk-shape > .elementor-shape {
+  position: absolute;
+  pointer-events: none;
+}
+
+.lk-shape > .elementor-shape > * {
+  display: block;
+}
+
+[class*="lk-shape-blur"] > .elementor-shape {
+  overflow: visible;
+}
+
+.elementor-section:not([class*="lk-shape-blur"]) > .elementor-shape > * {
+  transform: scale(2);
+}
+
+.lk-shape > .elementor-shape > svg{
+  position: static;
+  left: inherit;
+  transform: none;
+}
+
+
+// Hide SVG images in IE
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+  .lk-shape > .elementor-shape > svg {
+    display: none;
+  }
+}
+
+
+// Position
+
+.lk-shape > .elementor-shape-top{
+  top: 0;
+  right: 0;
+  left: 0;
+  transform: none !important;
+}
+
+.lk-shape > .elementor-shape-top > * {
+  transform-origin: bottom center;
+}
+
+.lk-shape-right > .elementor-shape {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.lk-shape-right > .elementor-shape > * {
+  position: inherit;
+  top: inherit;
+  bottom: inherit;
+  right: inherit;
+  transform-origin: center left;
+}
+
+.lk-shape > .elementor-shape-bottom {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: none !important;
+}
+
+.lk-shape > .elementor-shape-bottom > * {
+  transform-origin: top center;
+}
+
+.lk-shape-bottom-100 > .elementor-shape {
+  right: 0;
+  bottom: 100%;
+  left: 0;
+}
+
+.lk-shape-bottom-100 > .elementor-shape > * {
+  transform-origin: top center;
+}
+
+.lk-shape-left > .elementor-shape {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.lk-shape-left > .elementor-shape > * {
+  position: inherit;
+  top: inherit;
+  bottom: inherit;
+  left: inherit;
+  transform-origin: center right;
+}
+
+
+// Orientation
+
+.lk-shape-fluid-x > .elementor-shape > * {
+  width: 100%;
+  height: auto;
+}
+
+.lk-shape-fluid-y > .elementor-shape > * {
+  width: auto;
+  height: 100%;
+}
+
+
+// Direction
+
+.lk-shape-flip-x > .elementor-shape {
+  transform: scaleX(-1);
+}
+
+
+// Blurs
+
+.lk-shape-blur-1 > .elementor-shape {
+  top: 0;
+  right: 0;
+  left: 0;
+
+  @include media-breakpoint-up(md) {
+    bottom: 0;
+    left: 50%;
+    right: auto;
+  }
+}
+
+.lk-shape-blur-1 > .elementor-shape > * {
+  width: 100%;
+  height: auto;
+
+  @include media-breakpoint-up(md) {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.lk-shape-blur-2 > .elementor-shape {
+  top: 0;
+  right: 0;
+  left: 0;
+
+  @include media-breakpoint-up(md) {
+    bottom: 0;
+    right: 50%;
+    left: auto;
+  }
+}
+
+.lk-shape-blur-2 > .elementor-shape > * {
+  width: 100%;
+  height: auto;
+
+  @include media-breakpoint-up(md) {
+    width: auto;
+    height: 100%;
+    float: right;
+  }
+}
+
+.lk-shape-blur-3 > .elementor-shape {
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.lk-shape-blur-3 > .elementor-shape > * {
+  width: 100%;
+  height: auto;
+}
+
+.lk-shape-blur-4 > .elementor-shape {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%) scale(1.3);
+}
+
+.lk-shape-blur-4 > .elementor-shape > * {
+  width: auto;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

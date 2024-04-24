@@ -1,0 +1,19 @@
+.elementor-heading-title {
+    &.display-1, &.display-2, &.display-3, &.display-4 {
+        line-height: 1.2;
+    }
+}
+
+h1.elementor-heading-title,
+h2.elementor-heading-title {
+    margin-bottom: 1rem;
+    line-height: 1.35;
+}
+
+.elementor-testimonial-wrapper h2.elementor-testimonial-content {
+    font-size: 1.9375rem;
+}
+
+.elementor-text-editor > *:last-child {
+    margin-bottom: 0;
+}

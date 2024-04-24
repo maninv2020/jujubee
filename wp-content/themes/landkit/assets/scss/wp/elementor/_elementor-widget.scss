@@ -1,0 +1,147 @@
+/**
+ * Elementor-widget
+*/
+
+.elementor-widget-last-child-mb-zero .elementor-widget:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.elementor-widget.shape {
+    position: absolute !important;
+}
+
+.elementor-widget.bg-cover > .elementor-widget-container {
+    background: no-repeat center center/cover;
+}
+
+/**
+ * Elementor-Image-Widget
+*/
+
+.elementor-image-widget-rounded img {
+    border-radius: .375rem;
+}
+
+.elementor-img-widget-shadow-lg img {
+    box-shadow: $box-shadow-lg;
+}
+
+.elementor .img-cover {
+    max-width: none;
+}
+
+/**
+ * Video Widget
+ *
+ */
+.rounded-lg--video video {
+    border-radius: $border-radius-lg;
+}
+
+
+/**
+ * Elementor-Button-Widget
+*/
+
+.elementor-widget-button {
+    .h6 {
+        line-height: 1.6;
+
+        .elementor-button-content-wrapper {
+            display: inline;
+            font-size: 0.75rem;
+        }
+    }
+}
+
+/**
+ * Elementor-Icon-List
+*/
+
+.elementor-widget .elementor-icon-list-item.list-group-item {
+    padding: 1.5rem 2rem;
+}
+
+.elementor-widget .elementor-icon-list-icon i {
+    width: 1em;
+}
+
+.elementor-widget .list-group-flush .elementor-icon-list-item.list-group-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.elementor-card > *:first-child {
+    position: relative;
+    min-height: 1px;
+    display: block;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    padding: 2rem;
+}
+
+/**
+ * Elementor-Map
+ */
+
+.elementor-widget-lk-map {
+    height: 100%;
+    
+    > .elementor-widget-container {
+        height: 100%;
+    }
+}
+
+/**
+ * Step
+ */
+.step__desc.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+/**
+ * Divider
+ */
+.elementor-widget-lk-dividers.h-100 .elementor-widget-container {
+    height: 100%;
+    width: 100%;
+}
+
+.elementor hr.card-meta-divider {
+    margin: 0 0 1.5rem;
+}
+
+/**
+ * Button
+ */
+.btn.icon-ml-auto .elementor-button-icon,
+.btn.icon-mx-auto .elementor-button-icon {
+    margin-left: auto!important
+}
+
+.btn.icon-mr-auto .elementor-button-icon,
+.btn.icon-mx-auto .elementor-button-icon {
+    margin-right: auto!important
+}
+
+.btn.icon-mx-auto .elementor-button-content-wrapper,
+.btn.icon-ml-auto .elementor-button-content-wrapper,
+.btn.icon-mr-auto .elementor-button-content-wrapper {
+    width: 100%;
+}
+
+.btn__icon + .elementor-button-text {
+    display: inherit;
+}
+
+.d-none > .elementor-button-content-wrapper {
+    display: none;
+}
+
+.d-md-inline > .elementor-button-content-wrapper {
+    @include media-breakpoint-up(md) {
+        display: inline;
+    }
+}

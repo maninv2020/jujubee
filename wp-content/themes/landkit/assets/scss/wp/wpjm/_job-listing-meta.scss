@@ -1,0 +1,10 @@
+.job-listing__meta {
+    li + li:before {
+        content: ' · ';
+        margin-left: 4px;
+    }
+
+    .google_map_link {
+        color: inherit;
+    }
+}

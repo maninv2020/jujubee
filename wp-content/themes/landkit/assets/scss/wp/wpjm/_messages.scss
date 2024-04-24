@@ -1,0 +1,27 @@
+.job-manager-message,
+.job-manager-error,
+.job-manager-info {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .375rem;
+}
+
+.job-manager-error {
+    color: #fff;
+    background-color: #df4759;
+    border-color: #df4759;
+}
+
+.job-manager-info {
+    color: #fff;
+    background-color: #506690;
+    border-color: #506690;
+}
+
+.job-manager-message {
+    color: #fff;
+    background-color: #42ba96;
+    border-color: #42ba96;
+}

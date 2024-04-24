@@ -1,0 +1,76 @@
+@media (max-width: 575px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .elementor-section.elementor-section-boxed > .elementor-container {
+        max-width: 960px;
+    }
+}
+
+.elementor-column>.elementor-element-populated:not(.card-body):not(.dropdown-body):not(.dropdown-img-left):not(.no-pad-0) {
+    padding: 0 !important;
+}
+
+.elementor-column>.elementor-element-populated.card-body {
+    @include media-breakpoint-up(md) {
+        padding: $card-row-spacer-y $card-row-spacer-x;
+    }
+}
+
+.elementor-container.form-row {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
+
+.elementor-column {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.elementor-container.card-body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.no-gutters > .elementor-container,
+.no-gutters > .elementor-column,
+.no-gutters.elementor-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.elementor-column-gap-narrow > .elementor-column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.elementor-column-gap-narrow.elementor-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.svg-shim .elementor-widget-container {
+    width: 100%;
+}
+
+.svg-shim .elementor-widget-container > svg {
+    width: inherit;
+    height: inherit;
+}
+
+.elementor-widget-container-h-100 > .elementor-widget-container {
+    height: 100%;
+}
+
+.ww-d-block .elementor-widget-wrap {
+    display: block !important;
+}
+
+.p-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}

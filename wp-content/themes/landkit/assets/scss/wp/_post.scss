@@ -1,0 +1,15 @@
+@import 'blocks/gallery';
+
+.post__content {
+    > *:last-child {
+        margin-bottom: 0;
+        @include clearfix;
+    }
+}
+
+.mce-item-table,
+table:not([class]) {
+    @extend .table;
+    @extend .table-md;
+    @extend .table-bordered;
+}

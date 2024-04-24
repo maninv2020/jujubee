@@ -1,0 +1,16 @@
+.no_job_listings_found,
+li.job_listing {
+    border-top: 1px solid #f1f4f8;
+}
+
+li.job_listing,
+.job_listings__header,
+.no_job_listings_found {
+    padding: 1.5rem 2rem;
+}
+
+.wp-job-manager-showing-all {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}

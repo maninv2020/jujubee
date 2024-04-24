@@ -1,0 +1,120 @@
+//
+// select2.scss
+//
+
+.job-manager-category-dropdown  {
+    opacity: 0;
+}
+
+.select2-selection {
+    @extend .custom-select;
+    background-size: 24px;
+    border-color: $border-color !important;
+    border-radius: $border-radius !important;
+    cursor: pointer !important;
+
+    &:focus,&:active {
+        border-color: lighten($primary, 25%) !important;
+    }
+}
+
+.select2-dropdown {
+    @extend .dropdown-menu;
+    width: 100%;
+
+    .select2-results__option {
+        & + .select2-results__option {
+            margin-top: .45rem;
+        }
+
+        &.select2-results__option--highlighted {
+            color: $primary;
+            text-decoration: none;
+            background-color: transparent;
+        }
+    }
+}
+
+.select2-container--default {
+    .select2-results>.select2-results__options {
+        max-height: 100%;
+    }
+}
+
+.select2-container {
+    &.select2-container--default {
+        .select2-results__option[aria-selected=true] {
+            border-radius: 4px;
+            background-color: lighten($primary, 42%);
+        }
+    }
+}
+
+.select2-container--focus .select2-selection--multiple {
+    border-color: lighten($primary, 25%) !important;
+}
+
+.select2-container--default {
+    .select2-selection--multiple {
+        .select2-selection__rendered {
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .select2-selection__clear {
+            order: 1;
+            margin-left: auto;
+            color: $gray-600;
+            margin-top: -2px;
+            display: none;
+        }
+
+        .select2-selection__choice {
+            color: $black;
+            background-color: rgba(255,255,255,.15);
+            font-size: 14px;
+            border: 1px solid rgba(0,0,0,.1);
+            padding: 2px 10px;
+            margin: 3px 5px 3px 0;
+        }
+
+        .select2-selection__choice__remove {
+            margin-right: 4px;
+            color: $black;
+        }
+
+        .select2-search--inline {
+            .select2-search__field {
+                margin-top: 0;
+
+                &::placeholder {
+                    color: $text-muted;
+                }
+            }
+        }
+    }
+
+    .select2-selection--single {
+        height: $input-height;
+
+        .select2-selection__arrow {
+            display: none;
+        }
+
+        .select2-selection__rendered {
+            color: $black;
+        }
+
+        .select2-selection__placeholder,
+        .select2-selection__clear {
+            color: $text-muted;
+        }
+    }
+}
+
+.select2-container--open {
+    .select2-dropdown {
+        display: block;
+    }
+}

@@ -1,0 +1,80 @@
+.job_application * > *:not([class]):last-child {
+    margin-bottom: 0;
+}
+
+.single-job_listing__desc {
+    > *:last-child {
+        margin-bottom: 0 !important;
+    }
+    
+    > ul:not([class]) {
+        padding-left: 0;
+        margin-left: 0;
+
+        li {
+            display: flex;
+            margin-bottom: 1rem;
+            margin-left: 5px;
+
+            &::before,
+            &::after {
+                content: " ";
+                order: -1;
+            }
+
+            &::after {
+                width: 20px;
+                height: 20px;
+                background-color: rgba(66, 186, 150, 0.1);
+                border-radius: 50%;
+                margin-right: 18px;
+                flex: 0 0 20px;
+                margin-top: 6px;
+            }
+
+            &::before {
+                content: "\e92b";
+                font-family: 'Feather' !important;
+                font-weight: 900;
+                color: #42ba96;
+                margin-right: -16px;
+                font-size: 10px;
+                margin-top: 6px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    > p:not([class]), 
+    > ul:not([class]) {
+        color: $gray-800;
+        margin-bottom: 1.5rem;
+    }
+
+    > h1:not([class]),
+    > h2:not([class]),
+    > h3:not([class]),
+    > h4:not([class]),
+    > h5:not([class]),
+    > h6:not([class]) {
+        
+        &:not(:first-child) {
+            margin-top: 2rem;
+        
+            @include media-breakpoint-up(md) {
+                margin-top: 3rem;
+            }
+        }
+
+        + ul:not([class] ) {
+            margin-top: 1.5rem;
+        }
+    }
+}
+
+.job_application p {
+    color: $gray-600;
+}

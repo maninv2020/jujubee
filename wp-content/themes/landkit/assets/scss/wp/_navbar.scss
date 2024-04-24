@@ -1,0 +1,32 @@
+.navbar-nav {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+@include media-breakpoint-down(md) { 
+    .admin-bar .navbar-collapse {
+        top: calc( #{$spacer} + 32px );
+    }
+}
+
+.navbar.fixed-top + article,
+.navbar.fixed-top +  div,
+.navbar.fixed-top +  section {
+    margin-top: 83px;
+}
+
+.admin-bar .navbar.fixed-top {
+    top: 32px;
+}
+
+@media(max-width: 991px) {
+  .admin-bar .navbar.fixed-top {
+     top: 46px;
+  }
+	
+  .navbar.fixed-top + article,
+  .navbar.fixed-top +  div,
+  .navbar.fixed-top +  section {
+	margin-top: 78px;
+   }
+}
